@@ -16,12 +16,14 @@ Important notes about the site:
   it can't find the movie, even though it is in the IMDB database. This applies mainly to small indie movies and foreign language movies.
 
 The searches are not interpreted well.
-for instance, if you are searching for the movie "Star Wars: Episode V - The Empire Strikes Back", it won't find every version of the title
+for instance, if you are searching for the movie "Star Wars: Episode V - The Empire Strikes Back", it won't find every version of the title.
+
 Examples of some titles that won't work:
 * Star Wars 5
 * Star Wars episode 5
 * Star Wars V
 * Star Wars The Empire Strikes Back
+
 Examples of some titles that work:
 * Star Wars: Episode V - The Empire Strikes Back
 * Star Wars: Episode V
