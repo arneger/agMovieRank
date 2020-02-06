@@ -1,0 +1,94 @@
+body {
+  background-color: #2e2e1f;
+  position: relative;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  color: #f5f5f0;
+  font-size: 300%;
+  margin-left: -10px;
+  margin-top: 20px;
+  text-shadow: 6px 1px #b30000;
+}
+
+#mainSection {
+  position: relative;
+  background-color: #2e2e1f;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#someText {
+  text-align: center;
+  margin-right: 35px;
+  font-family: 'Righteous', cursive;
+  font-size: 150%;
+  color: #f5f5f0;
+}
+
+img {
+  display: none;
+}
+
+img[src] {
+ display: block;
+}
+
+#poster {
+  display: block;
+  margin-left: 78px;
+  margin-right: auto;
+  bottom: 10%;
+  width: 27,5%;
+  height: 80%;
+}
+
+#inputOgKnapp {
+  text-align: center;
+  margin-left: 18px;
+}
+
+::placeholder {
+  color: #6b6b47;
+  font-family: 'Righteous', cursive;
+  opacity: 1;
+}
+
+#filmInput {
+  background-color:#0f0f0a;
+  color: #f5f5f0;
+  padding: right;
+  border: none;
+  margin-right: 5px;
+  font-size: 20px;
+  height: 10%;
+}
+
+#button1 {
+
+  width: 10%;
+  padding: 10px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  color: #0f0f0a;
+  font-size: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  left: 5%;
+
+}
+
+#rating {
+  text-align: center;
+  margin-right: 35px;
+  font-family: 'Righteous', cursive;
+  font-size: 150%;
+  color: #f5f5f0;
+}
