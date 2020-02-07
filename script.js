@@ -4,7 +4,7 @@ function getInput(){
     return input2;
   }
 
-
+//a comment
 function apiCall(){
     movie = getInput();
     const postsPromise = fetch('https://www.omdbapi.com/?apikey=ea9f22bf&t=' + encodeURI(movie));
