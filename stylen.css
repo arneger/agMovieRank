@@ -41,11 +41,10 @@ img[src] {
 
 #poster {
   display: block;
-  margin-left: 78px;
   margin-right: auto;
   bottom: 10%;
-  width: 27,5%;
-  height: 80%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 #inputOgKnapp {
