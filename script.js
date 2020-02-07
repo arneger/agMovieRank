@@ -43,7 +43,6 @@ function callApiInfo(){
         var moviePoster = data["Poster"]
         document.getElementById("theMovieTitle").innerHTML = data["Title"];
         document.getElementById("rating").innerHTML = scoreOutput;
-        document.getElementById("poster").src = null;
         styleReset();
         changePosterStyle(nocatch);
         document.getElementById("poster").src = moviePoster;
@@ -53,7 +52,6 @@ function callApiInfo(){
             nocatch = false;
             document.getElementById("theMovieTitle").innerHTML = "";
             document.getElementById("rating").innerHTML = "Could not find " +'"'+ movie + '"'+".<br/>Try typing the correct movie title.";
-            document.getElementById("poster").src = null;
             styleReset();
             changePosterStyle(nocatch);
             document.getElementById("poster").src = "errorImage2.png";
