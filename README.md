@@ -39,7 +39,7 @@ Examples of some titles that work:
 * The Empire Strikes Back
 * Empire Strikes Back
 
-JavaScript:
+JavaScript:\n
 getInput() gathers the input from the HMTL input field followed by clearing the search field.
 
 changePosterStyle(noCatch) changes the image style. If noCatch is true it means it'll be changing/adding the movie poster css style,
@@ -56,7 +56,7 @@ The error message is displayed in the p rating tag since that tag is below the s
 
 At the end of the script file there's code that lets the user press enter to activate the apiCall function (search)
 
-CSS:
+CSS:\n
 I've mainly just played around in the CSS, so it's a little bit unstructured. There's also some things done that may 
 not be considered best practice, but I'm planning to do some changes to it when I got the time. 
 
