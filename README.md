@@ -15,6 +15,14 @@ Important notes about the site:
 - The API doesn't include TV-Shows/series and does not include every movie that exists in the IMDB database, so you may get a message that 
   it can't find the movie, even though it is in the IMDB database. This applies mainly to small indie movies and foreign language movies.
 
+Why did I make this?
+Because there's so many movie-streaming services it's very hard for me to pick a movie, and when I pick a movie I want to watch a movie
+with a good rating from critics and users. Therefore I often check IMDBs user ratings, Rotten Tomatoes critic ratings and 
+Metacritic critc ratings. Since I have this habit of checking all these websites I figured out a good idea would be to create a website
+that let me see the average rating of a movie from all the 3 sites.
+
+
+
 The searches are not interpreted well.
 for instance, if you are searching for the movie "Star Wars: Episode V - The Empire Strikes Back", it won't find every version of the title.
 
@@ -32,15 +40,20 @@ Examples of some titles that work:
 * Empire Strikes Back
 
 JavaScript:
-the function "getInput" gathers the input from the HMTL input field followed by clearing the search field.
-the function "apiCall" is activated when pressing the search button or pressing enter in the input field.
-apiCall connects to the OMDB API and give it as a JSON. There's a try/catch block in case it can't find the movie
+getInput() gathers the input from the HMTL input field followed by clearing the search field.
+
+changePosterStyle(noCatch) changes the image style. If noCatch is true it means it'll be changing/adding the movie poster css style,
+and if noCatch is false it's changing/adding the error image css style.
+
+styleReset() changes the styles that are set in changePosterStyle(noCatch) to null.
+
+callApiInfo() is activated when pressing the search button or pressing enter in the input field.
+callApiInfo() connects to the OMDB API and give it as a JSON. There's a try/catch block in case it can't find the movie
 Inside the try block the average rating of Rotten Tomatoes, Metacritic and IMDB gets calculated from the API data.
-In the end it displays the movie information p tags and the poster in a img tag. The img style is also changed so
-the poster gets a shadow.
-Inside the catch block it'll display a message that it couldn't find the movie in the p tags. The img shadow style
-is also set to null since a transparent png file of gears is displayed in the img tag. 
+Finally it displays the movie information p tags and the poster in a img tag.
+Inside the catch block it'll display a message that it couldn't find the movie in the p tags. 
 The error message is displayed in the p rating tag since that tag is below the search bar. 
+
 At the end of the script file there's code that lets the user press enter to activate the apiCall function (search)
 
 CSS:
