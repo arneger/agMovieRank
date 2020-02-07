@@ -23,7 +23,7 @@ h1 {
   margin-top: 50px;
 }
 
-#someText {
+.infoMovie {
   text-align: center;
   margin-right: 35px;
   font-family: 'Righteous', cursive;
@@ -43,8 +43,8 @@ img[src] {
   display: block;
   margin-right: auto;
   bottom: 10%;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
+  -webkit-filter: drop-shadow(5px 5px 5px #0f0f0a); 
+  filter: drop-shadow(5px 5px 5px #0f0f0a);
 }
 
 #inputOgKnapp {
@@ -69,7 +69,6 @@ img[src] {
 }
 
 #button1 {
-
   width: 10%;
   padding: 10px;
   background-color: transparent;
@@ -81,13 +80,4 @@ img[src] {
   outline: none;
   border: none;
   left: 5%;
-
-}
-
-#rating {
-  text-align: center;
-  margin-right: 35px;
-  font-family: 'Righteous', cursive;
-  font-size: 150%;
-  color: #f5f5f0;
 }

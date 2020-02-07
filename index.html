@@ -13,14 +13,14 @@
         <h1>Movie Rank</h1>
     </header>
     <main>
-        <section id ="mainSection" class = "sections">
+        <section id ="mainSection">
             <section id ="inputOgKnapp">
                 <input type="text" placeholder=" Search.." id="filmInput" alt="Search field">
-                <button id="button1" type="button" title="Search Button" onclick="apiCall();"><i class="fa fa-search"></i></button>
+                <button id="button1" type="button" title="Search Button" onclick="callApiInfo();"><i class="fa fa-search"></i></button>
             </section>
-            <p id="rating"></p>
-            <img id="poster" class="thePoster">
-            <p id="someText"></p>
+            <p id="rating" class="infoMovie"></p>
+            <img id="poster">
+            <p id="theMovieTitle" class="infoMovie"></p>
         </section>
     </main>
 </body>
