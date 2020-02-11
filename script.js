@@ -28,8 +28,8 @@ function changePosterStyle(noCatch){
 
 // Finds the movie information from the API and inserts it to the HTML.
 function callApiInfo(){
-    movie = getInput();
-    nocatch = true;
+    var movie = getInput();
+    var nocatch = true;
     const postsPromise = fetch('https://www.omdbapi.com/?apikey=ea9f22bf&t=' + encodeURI(movie));
     postsPromise
     .then(data => data.json())
