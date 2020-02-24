@@ -4,18 +4,18 @@ Page: https://arneger.github.io/agMovieRank/
 
 Movie Rank is a website where you can search for a movie and get the average rating from IMDB, Rotten Tomatoes and Metacritic.
 
-#How to use the website
+# How to use the website
 1. Click on the input field and type a movie title.
 2. Press enter or click on the search button (magnifying glass icon) to search for a movie.
 3. If the input is valid the average score, poster and the title of the movie will be displayed.
    If the input is not valid you'll get a message that the movie couldn't be found.
    
-#Important notes about the site
+# Important notes about the site
 - The javascript takes the input and searches for it in an API (OMDB API)
 - The API doesn't include TV-Shows/series and does not include every movie that exists in the IMDB database, so you may get a message that 
   it can't find the movie, even though it is in the IMDB database. This applies mainly to small indie movies and foreign language movies.
 
-#Why did I make this
+# Why did I make this?
 Because there's so many movie-streaming services it's very hard for me to pick a movie, and when I pick a movie I want to watch a movie
 with a good rating from critics and users. Therefore I often check IMDBs user ratings, Rotten Tomatoes critic ratings and 
 Metacritic critc ratings. Since I have this habit of checking all these websites I figured out a good idea would be to create a website
@@ -39,7 +39,7 @@ Examples of some titles that work:
 * The Empire Strikes Back
 * Empire Strikes Back
 
-#JavaScript
+# JavaScript
 
 getInput() gathers the input from the HMTL input field followed by clearing the search field.
 
@@ -57,7 +57,7 @@ The error message is displayed in the p rating tag since that tag is below the s
 
 At the end of the script file there's code that lets the user press enter to activate the apiCall function (search)
 
-#CSS
+# CSS
 
 I've mainly just played around in the CSS, so it's a little bit unstructured. There's also some things done that may 
 not be considered best practice, but I'm planning to do some changes to it when I got the time. 
