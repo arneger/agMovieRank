@@ -54,7 +54,7 @@ function callApiInfo(){
             document.getElementById("rating").innerHTML = "Could not find " +'"'+ movie + '"'+".<br/>Try typing the correct movie title.";
             styleReset();
             changePosterStyle(nocatch);
-            document.getElementById("poster").src = "errorImage2.png";
+            document.getElementById("poster").src = "images/errorImage2.png";
             document.getElementById("poster").alt = "Gears";
             console.log(err);
         }
