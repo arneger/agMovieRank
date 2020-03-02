@@ -61,5 +61,5 @@ At the end of the script file there's code that lets the user press enter to act
 
 I've mainly just played around in the CSS, so it's a little bit unstructured. There's also some things done that may 
 not be considered best practice, but I'm planning to do some changes to it when I got the time. 
-
+Note that I temporarily remove doctype in the html because it caused an issue with the style on the input field
 
